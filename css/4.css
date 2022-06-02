@@ -1,0 +1,129 @@
+    * {
+        box-sizing: border-box;
+    }
+
+    .parrent-div {
+        background-color: red;
+    }
+
+    .body {
+        background-color: #eee;
+        letter-spacing: -4px;
+    }
+
+    .title {
+        text-align: center;
+        padding: 0px 200px 0px;
+        letter-spacing: 0px;
+    }
+
+    .title h1 {
+        font-size: 20px;
+        color: rgb(255, 208, 0);
+
+    }
+
+    .title h2 {
+        font-size: 40px;
+    }
+
+    .main-div {
+        background-color: #aaa;
+        width: 75%;
+        overflow: hidden;
+        margin: 0 auto;
+
+
+
+    }
+
+    .sec1 {
+        position: relative;
+        float: left;
+        width: 33.33%;
+        padding: 10px;
+        letter-spacing: 0px;
+
+    }
+
+    .div1 {
+        position: relative;
+        background-color: rgb(248, 248, 123);
+        
+    }
+
+    .div2 {
+        position: relative;
+    }
+
+    .div1 img {
+        width: 100%;
+        padding: 0px;
+
+    }
+
+    .date-holder {
+        background-color: yellow;
+        position: absolute;
+        top: 0px;
+        left: 5px;
+        padding: 5px 20px;
+        letter-spacing: 0px;
+        overflow: hidden;
+        transition: 0.2s ease;
+
+    }
+
+    .text-holder {
+        letter-spacing: 0px;
+        overflow: hidden;
+       
+    }
+
+    .name-holder {
+        letter-spacing: 0px;
+        left: 0px;
+        float: left;
+
+    }
+
+    .name-holder a {
+        text-decoration: none;
+   
+    }
+    .more {
+        position: absolute;
+        right: 0px;
+
+    }
+
+    .more a {
+        color: rgb(192 10 10);
+        text-decoration: none;
+        text-shadow:#aaa;
+    }
+
+    .image {
+        overflow: hidden;
+        
+    }
+    .image img{
+        transition: 0.2s ease;
+        
+    }
+
+    .image:hover img {
+        transform: scale(1.2,1.2);
+        
+    }
+    .zoom {
+        overflow: hidden;
+    }
+    .zoom:hover .date-holder{
+        left: 20px;
+        /* transform: scale(1.1,1.1); */
+    }
+    .div1{
+        /* overflow: hidden; */
+        border-radius: 10px;
+    }
